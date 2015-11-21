@@ -1,3 +1,3 @@
 # calum-chamberlain.github.io
 
-The personal website of Calum Chamberlain, Seismologist at Victoria University of Wellington.
+The host and repo for the personal webpages of Calum Chamberlain.
