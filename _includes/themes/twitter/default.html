@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -21,7 +22,9 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
+  --    >
+  <!-- Attempt to include kasper style head -->
+      <!-- {% include head.html %} -->
   </head>
 
   <body>
@@ -38,6 +41,7 @@
         </div>
       </div>
     </div>
+    <!-- {% include navigation.html %} -->
 
     <div class="container">
 

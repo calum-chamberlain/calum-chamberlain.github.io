@@ -2,7 +2,14 @@
 layout: page
 title: Calum Chamberlain
 tagline: Seismologist/Cyclist
+cover: 'assets/images/cover1.jpg'
+logo: 'assets/EQcorrscan_logo.png'
+navigation: True
+current: Home
 ---
+
+![Banner photo]({{ site.productionurl }}/assets/images/cover1.png)
+
 {% include JB/setup %}
 
 ## About
