@@ -17,9 +17,41 @@ group: navigation
 
 ## Deep-Fault Drilling Project
 
-## Tasman glacier
+## Tasman glacier speed-up
 
 ## Along-strike changes in seismicity adjacent to the Alpine Fault
+
+## Southern Alps Micro-earthquake Borehole Array
+
+Less a research interest, more the tool to achieve the above interests; the
+Southern Alps Micro-earthquake Borehole Array (SAMBA) is a network of 13
+seismometers deployed in the central Southern Alps to monitor micro-seismicity
+on and near the Alpine Fault.  The SAMBA deployment began in late 2008 under
+the Marsden project: "Putting a spethoscope on the Alpine Fault".  The initial
+deployment and data analysis formed was completed by Dr. Carolin Boese during
+here PhD at Victoria Unversity of Wellington.  The network has since been maintained
+and added to during my PhD tenure.  
+
+![SAMBA map]({{ site.productionurl }}/assets/SAMBA_map.pdf)
+
+SAMBA is a network of short-period sensors deployed mostly in
+shallow (post-hole) boreholes, with three deeper borehole sites, and four
+short-period surface sensors to extend the network over the LFE and tremor
+source region.
+
+Thanks to the amazing situation of the network we have some fun fieldtrips to
+collect the data every six months.  Ideally data would be telemetered from the
+sites to reduce costs (helicopter bills rack up), but a lack of sight-lines and
+no cell-phone reception mean that this is currently very difficult.
+
+![SAMBA photo]({{ site.productionurl }}/assets/SAMBA_photo.jpg)
+
+The network produces some amazing data in a relatively seismically quiet region
+of New Zealand.  There are very few earthquakes above M 4 within the network, and
+many noise sources (e.g. helicopters, storms, rockfalls, glacier motion, ocean),
+which make earthquake detection and analysis difficult.  As such having a borehole
+deployment, with the reduction in noise that these bring, is essential to study
+this crucial section of the on-land plate boundary in New Zealand.
 
 ## Developing multi-parallel open-source software for earthquake detection
 
