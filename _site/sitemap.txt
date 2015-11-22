@@ -1,9 +1,11 @@
 
-http://calum-chamberlain.github.io/EQcorrscan/about/
-http://calum-chamberlain.github.io/EQcorrscan/archive.html
-http://calum-chamberlain.github.io/EQcorrscan/categories.html
-http://calum-chamberlain.github.io/EQcorrscan/index.html
-http://calum-chamberlain.github.io/EQcorrscan/pages.html
-http://calum-chamberlain.github.io/EQcorrscan/rss.xml
-http://calum-chamberlain.github.io/EQcorrscan/sitemap.txt
-http://calum-chamberlain.github.io/EQcorrscan/tags.html
+http://calum-chamberlain.github.io/about/
+http://calum-chamberlain.github.io/archive.html
+http://calum-chamberlain.github.io/categories.html
+http://calum-chamberlain.github.io/cv/
+http://calum-chamberlain.github.io/index.html
+http://calum-chamberlain.github.io/pages.html
+http://calum-chamberlain.github.io/research/
+http://calum-chamberlain.github.io/rss.xml
+http://calum-chamberlain.github.io/sitemap.txt
+http://calum-chamberlain.github.io/tags.html

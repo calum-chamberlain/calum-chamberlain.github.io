@@ -9,8 +9,8 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : EQcorrscan
-tagline: Multi-paralleled matched-filter earthquake detection
+title : Calum Chamberlain
+tagline:
 author :
   name : Calum Chamberlain
   email : calum.chamberlain@vuw.ac.nz
@@ -24,7 +24,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://calum-chamberlain.github.io/EQcorrscan
+production_url : http://calum-chamberlain.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -53,7 +53,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://calum-chamberlain.github.io/EQcorrscan
+  BASE_PATH : http://calum-chamberlain.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -69,9 +69,8 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   about_path: /about/
-  installation_path: /installation/
-  contributing_path: /contributing/
-  api_path: http://eqcorrscan.readthedocs.org/en/latest/?badge=latest
+  research_path: /research/
+  cv_path: /cv/
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
@@ -83,7 +82,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -103,7 +102,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : false
     gauges :
         site_id : 'SITE ID'
     google :
