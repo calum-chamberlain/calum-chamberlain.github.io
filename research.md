@@ -12,6 +12,16 @@ group: navigation
 
 # Research interests
 
+I am interested in general in tectonics and fault mechanics, currently I study
+these areas through observational seismology.  Within the field of observational
+seismology I endeavour to create complete catalogues of seismicity (within an area)
+to enable studies of spatial and temporal changes in seismicity.  To generate
+these complete catalogues we need to have an objective method of detecting
+and analysing earthquakes over large time-periods, without the inherent subjectivity
+that normal obervatory practices have.  To this end I am also interested in applying
+*big-data* type methods for data mining, clustering and visualisation to seismic
+data.
+
 <div class="linebreak"> <span><p></p></span> </div>
 
 # Current projects
@@ -39,7 +49,10 @@ deployment and data analysis formed was completed by Dr. Carolin Boese during
 here PhD at Victoria Unversity of Wellington.  The network has since been maintained
 and added to during my PhD tenure.  
 
-<img src="{{ site.productionurl }}/assets/images/SAMBA_map.pdf" alt="SAMBA map" style="width: 100%;"/>
+<div style="text-align:center">
+<img src="{{ site.productionurl }}/assets/images/loc_map.pdf" alt="SAMBA map" style="width: 50%;"/>
+<br><em>Map of the SAMBA network taken from Chamberlain et al. (2014)</em>
+</div>
 
 SAMBA is a network of short-period sensors deployed mostly in
 shallow (post-hole) boreholes, with three deeper borehole sites, and four
@@ -53,6 +66,7 @@ no cell-phone reception mean that this is currently very difficult.
 
 <div style="text-align:center">
 <img src="{{ site.productionurl }}/assets/images/SOLU_majestic.jpg" alt="SAMBA stunning" style="width: 90%;"/>
+<br><em>Calum at the Solution Ranges (SOLU) SAMBA site in the central Southern Alps, overlooking the Landsborough Valley</em>
 </div>
 
 The network produces some amazing data in a relatively seismically quiet region
@@ -97,6 +111,18 @@ resources!).
 # Completed projects
 
 ## The first low-frequency earthquake catalogue for the Alpine Fault
+
+After Aaron Wech and Carolin Boese found tremor using the SAMBA network
+([Wech et al. 2012](http://onlinelibrary.wiley.com/doi/10.1029/2012GL051751/full))
+I set about lookin for low-frequency earthquakes (LFEs) within the tremor.
+I found a small set of LFEs by manual inspection, and, alongside David Shelly
+of the USGS, applied a matched-filter cross-correlation routine to find more,
+similar, LFEs.  We documented 14 LFE clusters or families, which repeated
+throughout the 36 month period we studied.  The catalogue we generated contained
+over 8000 discrete LFEs, with higher detection rates during tremor periods, and
+following large regional earthquakes.  You can read more in the paper we published
+in Geochemisty, Geophysics, Geosystems:
+[Chamberlain et al. 2014](http://onlinelibrary.wiley.com/doi/10.1002/2014GC005436/full).
 
 <hr>
 
