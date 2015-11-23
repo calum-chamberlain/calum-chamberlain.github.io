@@ -12,17 +12,22 @@ group: navigation
 
 # Research interests
 
+<div class="linebreak"> <span><p></p></span> </div>
 
 # Current projects
 
 ## Low-frequency earthquakes on the Alpine Fault
 
+<hr>
 ## Deep-Fault Drilling Project
 
+<hr>
 ## Tasman glacier speed-up
 
+<hr>
 ## Along-strike changes in seismicity adjacent to the Alpine Fault
 
+<hr>
 ## Southern Alps Micro-earthquake Borehole Array
 
 Less a research interest, more the tool to achieve the above interests; the
@@ -46,7 +51,9 @@ collect the data every six months.  Ideally data would be telemetered from the
 sites to reduce costs (helicopter bills rack up), but a lack of sight-lines and
 no cell-phone reception mean that this is currently very difficult.
 
-<img src="{{ site.productionurl }}/assets/images/SAMBA_photo.jpg" alt="SAMBA stunning" style="width: 100%;"/>
+<div style="text-align:center">
+<img src="{{ site.productionurl }}/assets/images/SOLU_majestic.jpg" alt="SAMBA stunning" style="width: 90%;"/>
+</div>
 
 The network produces some amazing data in a relatively seismically quiet region
 of New Zealand.  There are very few earthquakes above M 4 within the network, and
@@ -55,9 +62,12 @@ which make earthquake detection and analysis difficult.  As such having a boreho
 deployment, with the reduction in noise that these bring, is essential to study
 this crucial section of the on-land plate boundary in New Zealand.
 
+<hr>
 ## Developing multi-parallel open-source software for earthquake detection
 
-<IMG class="displayed" src="{{ site.productionurl }}/assets/EQcorrscan_logo.png" alt="EQcorrscan logo" align="middle" style="width: 100%;"/>
+<div style="text-align:center">
+<IMG src="{{ site.productionurl }}/assets/EQcorrscan_logo.png" alt="EQcorrscan logo" align="middle" style="width: 60%;"/>
+</div>
 
 To achieve any of the large-scale (long-duration datasets in spatial and
 temporal resolution) catalogues in an objective (because catalogues should
@@ -82,8 +92,12 @@ use over 600 templates, scanned through the full 6.5 year dataset, with compute
 clock times of less than 10.5 hours (less than 4 hours if I could use all the
 resources!).
 
+<div class="linebreak"> <span><p></p></span> </div>
+
 # Completed projects
 
 ## The first low-frequency earthquake catalogue for the Alpine Fault
+
+<hr>
 
 ## Stress and strain rates near the San Andreas Fault
