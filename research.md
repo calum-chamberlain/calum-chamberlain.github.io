@@ -44,9 +44,9 @@ Less a research interest, more the tool to achieve the above interests; the
 Southern Alps Micro-earthquake Borehole Array (SAMBA) is a network of 13
 seismometers deployed in the central Southern Alps to monitor micro-seismicity
 on and near the Alpine Fault.  The SAMBA deployment began in late 2008 under
-the Marsden project: "Putting a spethoscope on the Alpine Fault".  The initial
+the Royal Society of New Zealand, Marsden funded project: "Putting a stethoscope on the Alpine Fault".  The initial
 deployment and data analysis formed was completed by Dr. Carolin Boese during
-here PhD at Victoria Unversity of Wellington.  The network has since been maintained
+here PhD at Victoria University of Wellington.  The network has since been maintained
 and added to during my PhD tenure.  
 
 <div style="text-align:center">
@@ -114,7 +114,7 @@ resources!).
 
 After Aaron Wech and Carolin Boese found tremor using the SAMBA network
 ([Wech et al. 2012](http://onlinelibrary.wiley.com/doi/10.1029/2012GL051751/full))
-I set about lookin for low-frequency earthquakes (LFEs) within the tremor.
+I set about looking for low-frequency earthquakes (LFEs) within the tremor.
 I found a small set of LFEs by manual inspection, and, alongside David Shelly
 of the USGS, applied a matched-filter cross-correlation routine to find more,
 similar, LFEs.  We documented 14 LFE clusters or families, which repeated
