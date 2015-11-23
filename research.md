@@ -34,7 +34,7 @@ deployment and data analysis formed was completed by Dr. Carolin Boese during
 here PhD at Victoria Unversity of Wellington.  The network has since been maintained
 and added to during my PhD tenure.  
 
-![SAMBA map]({{ site.productionurl }}/assets/SAMBA_map.pdf)
+<img src="{{ site.productionurl }}/assets/images/SAMBA_map.pdf" alt="SAMBA map" style="width: 100%;"/>
 
 SAMBA is a network of short-period sensors deployed mostly in
 shallow (post-hole) boreholes, with three deeper borehole sites, and four
@@ -46,7 +46,7 @@ collect the data every six months.  Ideally data would be telemetered from the
 sites to reduce costs (helicopter bills rack up), but a lack of sight-lines and
 no cell-phone reception mean that this is currently very difficult.
 
-![SAMBA photo]({{ site.productionurl }}/assets/SAMBA_photo.jpg)
+<img src="{{ site.productionurl }}/assets/images/SAMBA_photo.jpg" alt="SAMBA stunning" style="width: 100%;"/>
 
 The network produces some amazing data in a relatively seismically quiet region
 of New Zealand.  There are very few earthquakes above M 4 within the network, and
@@ -57,7 +57,7 @@ this crucial section of the on-land plate boundary in New Zealand.
 
 ## Developing multi-parallel open-source software for earthquake detection
 
-![EQcorrscan logo]({{ site.productionurl }}/assets/EQcorrscan_logo.png)
+<IMG class="displayed" src="{{ site.productionurl }}/assets/EQcorrscan_logo.png" alt="EQcorrscan logo" align="middle" style="width: 100%;"/>
 
 To achieve any of the large-scale (long-duration datasets in spatial and
 temporal resolution) catalogues in an objective (because catalogues should
