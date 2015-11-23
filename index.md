@@ -35,7 +35,7 @@ a specific page here on anything cycling, but may post some blogs from some
 interesting rides, because thats fun.  
 
 I ride anything from track (although not
-recently), through road to cyclo-cross (I help organise the New Zealand's
+recently), through road to cyclo-cross (I help organise New Zealand's
 largest cyclo-cross series, [Hüttcross](http://huttcross.blogspot.co.nz)), and
 all kinds of mountain-biking.  Despite always wanting to race downhill, I still
 haven't done any proper downhill - the closest I have come is racing local
