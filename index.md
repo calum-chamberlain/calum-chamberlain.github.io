@@ -8,9 +8,9 @@ navigation: True
 current: Home
 ---
 
-![Banner photo]({{ site.productionurl }}/assets/images/cover1.png)
-
 {% include JB/setup %}
+
+<img src="{{ site.productionurl }}/assets/images/cover1.png" alt="Banner photo" style="width: 100%;"/>
 
 ## About
 
@@ -23,7 +23,7 @@ of repeating earthquakes
 ([EQcorrscan](http://calum-chamberlain.github.io/EQcorrscan/)).  The main motivation
 for this was to do something better than the original Matlab codes I had been
 working with, and as such the package began life as a dump for all my codes.
-It has now transittioned into a more useful and meaningful package, specifically
+It has now transitioned into a more useful and meaningful package, specifically
 it works well for large-scale cross-correlation problems with hundreds to
 thousands of templates and large data volumes (6+ years).  The package is open-source
 and I would really like more people to contribute to it.
