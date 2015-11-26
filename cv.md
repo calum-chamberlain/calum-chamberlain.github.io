@@ -8,8 +8,6 @@ group: navigation
 ---
 {% include JB/setup %}
 
-**This page is in development**
-
 A formal, pdf version of my current CV can be downloaded
 [here]({{ site.productionurl }}/assets/CV_academic.pdf).
 
@@ -31,9 +29,12 @@ strain and stress fields near the San Andreas Fault doi: [10.1016/j.epsl.2014.04
 
 # Awards
 
-* Shell technical scholarship
-* Jim Ansell
-* VUW Scholarship
+* **Jim Ansell Geophysics Scholarship** *2014*: Awarded by the GeoScience
+Society of New Zealand to the student who the committee deem most likely to
+advance New Zealand geophysics in their career.
+* **Victoria University of Wellington Doctoral Scholarship** *2012-2015*:
+Stipend and fees scholarship for the duration of PhD study
+* **Shell technical scholarship** *2008-2012*
 
 <hr>
 
@@ -51,3 +52,7 @@ a good knowledge of shell scripting.
 <hr>
 
 # Teaching experience
+
+* Tutoring undergraduate (level 300, final year) geophysics classes at VUW;
+* Tutoring final year undergraduate geophysics field class;
+* Mentored 4 summer research students;

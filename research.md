@@ -28,8 +28,38 @@ data.
 
 ## Low-frequency earthquakes on the Alpine Fault
 
+Following on from the discovery of tremor on the deep extent of the Alpine Fault
+in 2012 by [Wech et al.](http://onlinelibrary.wiley.com/doi/10.1029/2012GL051751/full),
+we extracted high amplitude periods from the tremor to use a templates to scan for low-frequency
+earthquakes.  In this way we provided the first documentation of 14 low-frequency
+earthquake (LFE) families. These LFE families locate near the inferred (from GPS,
+seismic reflection and magnetotelluric studies) deep extent of the Alpine Fault,
+within a region of low quality factor (high attenuation), which we hypothesise
+is a region of high fluid pressure.  We calculated magnitudes for all the events
+in our catalogue and demonstrated an exponential frequency-magnitude relationship.
+We also saw increases in LFE detection rates following large regional earthquakes
+which may be due to triggering.  These results were published as
+[Chamberlain et al., (2014)](http://onlinelibrary.wiley.com/doi/10.1002/2014GC005436/full).
+
+<div style="text-align:center">
+<img src="{{ site.productionurl }}/assets/images/LFE_cartoon_equal.pdf" alt="LFE cartoon" style="width: 50%;"/>
+<br><em>Summary cartoon of LFEs in light of other studies</em>
+</div>
+
+We are now working on extending the catalogue using a longer continuous
+seismic dataset, and more templates in an effort to generate a spatially and
+temporally continuous catalogue.  This has been difficult as many previously
+used methods have either failed, due to high noise levels and low inter-station
+coherance, or are computationally inefficient for large datasets.  We are developing
+a new method at the moment... to be continued.
+
 <hr>
 ## Deep-Fault Drilling Project
+
+I was lucky to be involved in the second phase of the deep-fault drilling project
+(DFDP-2), where we tried to drill into the Alpine Fault in Whataroa.  My role in
+the project was characterising the seismicity in the Whataroa Valley prior to drilling,
+and co-leading the real-time seismic monitoring around the drill-site.
 
 <hr>
 ## Tasman glacier speed-up
