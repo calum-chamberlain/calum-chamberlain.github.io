@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV
+title: CJC:CV
 tagline: Calum Chamberlain
 description: CJC CV
 permalink: /cv/

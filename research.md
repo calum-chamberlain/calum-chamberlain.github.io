@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Research
+title: CJC:Research
 tagline: Observational Seismology
 description: CJC Research
 permalink: /research/
 group: navigation
 ---
 {% include JB/setup %}
-
-**This page is in development**
 
 # Research interests
 
@@ -56,16 +54,56 @@ a new method at the moment... to be continued.
 <hr>
 ## Deep-Fault Drilling Project
 
+<div style="text-align:center">
+<img src="{{ site.productionurl }}/assets/images/NASA_2_Central_AlpineF.jpg" alt="Alpine Fault from space" style="width: 100%;"/>
+<br><em>Alpine Fault from space - from the <a href="https://wiki.gns.cri.nz/DFDP">DFDP wiki</a></em>
+</div>
+
 I was lucky to be involved in the second phase of the deep-fault drilling project
 (DFDP-2), where we tried to drill into the Alpine Fault in Whataroa.  My role in
 the project was characterising the seismicity in the Whataroa Valley prior to drilling,
-and co-leading the real-time seismic monitoring around the drill-site.
+and co-leading the real-time seismic monitoring around the drill-site.  We have
+used the [EQcorrscan](http://calum-chamberlain.github.io/EQcorrscan/) package to
+detect (and an as yet, non-distributed correlation based picking routine) and
+locate near-repeating seismicity near the drill-site.  Currently this work
+is unpublished, as we refine locations using a variety of velocity models.
+
+During and before drilling we operated a 24-7 real-time seismic monitoring
+operation using open-source ([RTQuake](http://srl.geoscienceworld.org/content/85/3/735.full))
+software to detect and generate initial locations and magnitudes.  To check and
+refine picks and locations we operated in an international team of seismologists,
+making use of different time-zones to check detections within 30 minutes of them
+being made.
 
 <hr>
 ## Tasman glacier speed-up
 
-<hr>
-## Along-strike changes in seismicity adjacent to the Alpine Fault
+<div style="text-align:center">
+<IMG src="{{ site.productionurl }}/assets/images/Tasman_LABE.jpg" alt="Tasman glacier from LABE" align="middle" style="width: 90%;"/>
+<br><em>Tasman Glacier in the central Southern Alps from seismic site LABE on De La Beche ridge.</em>
+</div>
+
+The Tasman Glacier is a large temperate glacier (containing 29% of New Zealand's
+perenial ice) near Mt. Cook in the central Southern Alps.  
+[Horgan et al., (2015)](http://www.sciencedirect.com/science/article/pii/S0012821X15006512)
+documented speed-up events using geodetic observations on the glacier, following
+large rainfall events.  We have a seismic site as part of the SAMBA network
+within 1km of the glacier (above photo taken from the site, LABE), which has
+increased amplitudes during large speed-up events.  How this seismic signal
+relates to the speed-up events is a topic of current research within our
+group at Victoria University of Wellington.
+
+<!-- <hr> -->
+<!-- ## Along-strike changes in seismicity adjacent to the Alpine Fault
+
+Carolin Boese provided a detailed microseismicity catalogue for the central
+Southern Alps ([Boese et al., (2012)](http://onlinelibrary.wiley.com/doi/10.1029/2011JB008460/full)),
+including subcrustal earthquakes
+([Boese et al. (2013)](http://www.sciencedirect.com/science/article/pii/S0012821X13003464))
+and swarms ([Boese at al. (2014)](http://onlinelibrary.wiley.com/doi/10.1002/2013GC005171/full)).
+How this seismicity and low-frequency earthquakes and tremor change along-strike
+of the Alpine Fault may provide constraints on where earthquakes might nucleate
+on the Alpine Fault. -->
 
 <hr>
 ## Southern Alps Micro-earthquake Borehole Array
@@ -157,3 +195,7 @@ in Geochemisty, Geophysics, Geosystems:
 <hr>
 
 ## Stress and strain rates near the San Andreas Fault
+
+Working with Nicolas Houlie during my masters project, we compared stress and
+strain rates in the vicinity of the San Andreas -
+[Chamberlain et al., (2014)](http://www.sciencedirect.com/science/article/pii/S0012821X14002945).
