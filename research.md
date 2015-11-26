@@ -29,7 +29,7 @@ data.
 ## Low-frequency earthquakes on the Alpine Fault
 
 Following on from the discovery of tremor on the deep extent of the Alpine Fault
-in 2012 by [Wech et al.](http://onlinelibrary.wiley.com/doi/10.1029/2012GL051751/full),
+by [Wech et al., (2012)](http://onlinelibrary.wiley.com/doi/10.1029/2012GL051751/full),
 we extracted high amplitude periods from the tremor to use a templates to scan for low-frequency
 earthquakes.  In this way we provided the first documentation of 14 low-frequency
 earthquake (LFE) families. These LFE families locate near the inferred (from GPS,
@@ -42,7 +42,7 @@ which may be due to triggering.  These results were published as
 [Chamberlain et al., (2014)](http://onlinelibrary.wiley.com/doi/10.1002/2014GC005436/full).
 
 <div style="text-align:center">
-<img src="{{ site.productionurl }}/assets/images/LFE_cartoon_equal.pdf" alt="LFE cartoon" style="width: 50%;"/>
+<img src="{{ site.productionurl }}/assets/images/LFE_cartoon_equal.jpg" alt="LFE cartoon" style="width: 50%;"/>
 <br><em>Summary cartoon of LFEs in light of other studies</em>
 </div>
 
@@ -80,7 +80,7 @@ here PhD at Victoria University of Wellington.  The network has since been maint
 and added to during my PhD tenure.  
 
 <div style="text-align:center">
-<img src="{{ site.productionurl }}/assets/images/loc_map.pdf" alt="SAMBA map" style="width: 50%;"/>
+<img src="{{ site.productionurl }}/assets/images/loc_map.jpg" alt="SAMBA map" style="width: 50%;"/>
 <br><em>Map of the SAMBA network taken from Chamberlain et al. (2014)</em>
 </div>
 
