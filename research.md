@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CJC:Research
+title: Research
 tagline: Observational Seismology
 description: CJC Research
 permalink: /research/
