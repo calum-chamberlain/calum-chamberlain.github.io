@@ -14,11 +14,11 @@ current: Home
 
 ## About
 
-I am currently completing my PhD at Victoria University of Wellington, studying
+I a Postdoctoral Fellow at Victoria University of Wellington, researching
 active seismicity beneath New Zealand's central Southern Alps.  For more information
 on my research check out the [research](/research/) page.  
 
-Recently I have been building a Python package for the detection and analysis
+Recently, I have been building a Python package for the detection and analysis
 of repeating earthquakes
 ([EQcorrscan](http://calum-chamberlain.github.io/EQcorrscan/)).  The main motivation
 for this was to do something better than the original Matlab codes I had been
@@ -26,7 +26,7 @@ working with, and as such the package began life as a dump for all my codes.
 It has now transitioned into a more useful and meaningful package, specifically
 it works well for large-scale cross-correlation problems with hundreds to
 thousands of templates and large data volumes (6+ years).  The package is open-source
-and I would really like more people to contribute to it.
+and is developing a small community.
 
 Alongside my research, or rather, precluding my research, is my cycling.  Bikes
 and trails are the reasons I moved to Wellington in the first place, which just
