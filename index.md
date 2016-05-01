@@ -14,7 +14,7 @@ current: Home
 
 ## About
 
-I a Postdoctoral Fellow at Victoria University of Wellington, researching
+I am a Postdoctoral Reserach Fellow at Victoria University of Wellington, researching
 active seismicity beneath New Zealand's central Southern Alps.  For more information
 on my research check out the [research](/research/) page.  
 
