@@ -47,7 +47,8 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
                                 <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Research</span></a></li>
-                                <li><a href="#publications" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Publications</span></a></li>
+                                <li><a href="#publications" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-paste">Publications</span></a></li>
+                                <!--<li><a href="student-projects.html" id="student-link"><span class="icon fa-graduation-cap">Research Opportunites</span></a></li>-->
 							</ul>
 						</nav>
 
@@ -75,7 +76,7 @@
 
 							<header>
 								<h2 class="alt">Calum J. Chamberlain.</h2>
-								<p>Seismologist, cyclist, tinkerer.</p>
+								<p>Cycling seismologist.</p>
 							</header>
 
                         </div>
@@ -91,12 +92,10 @@
 
 							<a href="#" class="image featured"><img src="images/about_me.jpg" alt="" /></a>
 
-							<p>I am a Postdoctoral Reserach Fellow in seismology and fault mechanics at Victoria 
-                            University of Wellington. My research focuses on the detection and analysis of
-                            microseismicity, aftershocks, repeating earthquakes and slow earthquakes. Particularly
-                            I like to think about how earthquakes start and stop.</p>
+							<p>I am a Lecturer in Geophysics at Victoria 
+                            University of Wellington. I conduct research on earthquake processes and fault-zone properties using detailed, long-duration earthquake catalogues and subsequent analyses. For more about me, check out my <a href="https://people.wgtn.ac.nz/calum.chamberlain">staff page.</a></p>
 
-                            <p>To facilitate our groups research I have led the development of
+                            <p>To facilitate our group's research I lead the development and maintainence of
                             the <a href="http://calum-chamberlain.github.io/EQcorrscan">EQcorrscan</a> Python package.
                             EQcorrscan hosts codes for the detection and analysis of repeating and near-repeating
                             seismicity. The package is open-source (LGPL licenced) and is developing a small community.</p>
@@ -114,7 +113,41 @@
 							</header>
 
 							<p>My research focuses on seismology and fault mechanics. I use detailed catalogues
-                            of earthquakes as a tool to study fault processes.</p>
+                            of earthquakes as a tool to study earthquake processes and Earth properties.</p>
+
+                            <section class="spotlight">
+								<div class="image"><a href="#"><img src="images/Kek_trace.jpg" alt="Kekerengu Fault surface rupture" /></a></div>
+								<div class="content">
+									<h2>Study interactions between earthquakes and slow earthquakes in New Zealand</h2>
+									<p>
+									This project aims to develop scientifically useful earthquake catalogues throughout Aotearoa, and
+									study the interactions between earthquakes and other fault slip phenomena.							This project forms part of a Royal Society Te Apārangi <a href="https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/rutherford-discovery-fellowships/rutherford-discovery-fellowship-recipients/calum-chamberlain/">Rutherford Discovery Fellowship held by Dr Calum Chamberlain</a>.
+									</p>
+								</div>
+							</section>
+
+
+							<section class="spotlight">
+								<div class="image"><a href="#"><img src="images/SALSA_long_install.jpg" alt="Installation of one of the SALSA sites" /></a></div>
+								<div class="content">
+									<h2>Structure, stress and earthquake interactions at New Zealand’s most seismically active plate boundary: the Puysegur subduction zone</h2>
+									<p>
+									We aim to study the structure, stress and earthquake interactions at the Puysegur subduction zone beneath Fiordland in southern New Zealand. The Puysegur subduction zone is a relatively young subduction zone and regularly produces moderate to large (M>5) earthquakes. Despite this seismicity and the tectonic significance of this system, the Puysegur subduction zone has received relatively little attention, mostly due to its remote nature. We are deploying a new network of seismometers and GNSS receivers throughout Fiordland in summer 2023 to better resolve the seismicity and deformation of the Puysegur subduction zone. This project is funded by a Royal Society Te Apārangi <a href="https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/rutherford-discovery-fellowships/rutherford-discovery-fellowship-recipients/calum-chamberlain/">Rutherford Discovery Fellowship held by Dr Calum Chamberlain</a>.
+									</p>
+								</div>
+							</section>
+
+							<section class="spotlight">
+								<div class="image"><a href="#"><img src="https://www.eqc.govt.nz/assets/Uploads/A-recognised-volcano-in-Auckland__FocusFillWzc3MCwzNjAsInkiLDc2XQ.png" alt=""/></a></div>
+								<div class="content">
+									<h2>Sensing unrest in New Zealand’s largest city: detailed mapping of seismicity in Auckland.
+								</h2>
+									<p>
+									New Zealand’s largest city, Auckland, sits atop the ~53 volcanic centres of the Auckland Volcanic Field (AVF). The AVF poses a substantial hazard to Auckland, but we think that volcanic unrest in the AVF is likely to be preceded by elevated rates of earthquake occurrence.
+									We will apply modern computational methods to detect and locate small earthquakes within the Auckland Volcanic Field to generate the most complete picture of seismic activity in the volcanic field to date. This catalogue will underpin future unrest assessments, helping to both understand the Auckland Volcanic Field, and respond to any future unrest. This project is funded by <a href="https://www.eqc.govt.nz/news/fibre-network-to-help-understand-earthquakes-in-aucklands-volcanic-field/?fbclid=IwAR1XAag78baZBvuh0uZmOTbVZlLgsYXSStLq3MLv1FlitwUl9x5gZFUQusw">New Zealand’s Earthquake Commission</a>.
+									</p>
+								</div>
+                            </section>
 
 							<section class="spotlight">
 								<div class="image"><a href="https://github.com/eqcorrscan/RT_EQcorrscan">
@@ -122,12 +155,10 @@
 								<div class="content">
 									<h2>Real-Time Matched-Filter detection</h2>
 									<p>
-										I am currently developing Real-time matched-filter methods
-										with the goal of improving aftershock catalogues after
-										large earthquakes to allow for faster forecasting.
-										I have developed a package, <a href="https://github.com/eqcorrscan/RT_EQcorrscan">RT-EQcorrscan</a>
-										that is working, and will be released by pypi and
-										conda once stability testing is complete.
+										I am currently operationalising Real-time matched-filter methods
+										with the goal of improving source characterisation and aftershock catalogues after
+										large earthquakes to allow for faster, more accurate aftershock forecasting.
+										This work builds on a Python package that we recently developed, <a href="https://github.com/eqcorrscan/RT_EQcorrscan">RT-EQcorrscan</a>.
 									</p>
 								</div>
 							</section>
@@ -228,6 +259,50 @@
 
 							<div class="list">
 								<ul style="list-style: none;">
+									<li>
+										<strong>
+											A decade of earthquake activity at Taupō Volcano, New Zealand
+										</strong>, <a href="https://www.jvolcanica.org/ojs/index.php/volcanica/article/view/158">F.Illsley-Kemp et al.</a>, Volcanica, 2022.
+									<li><hr>
+									<li>
+										<strong>
+											Heterogeneity in Microseismicity and Stress Near Rupture-Limiting Section Boundaries Along the Late-Interseismic Alpine Fault
+										</strong>, <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JB025219">E. Warren-Smith et al.</a>, Journal of Geophysical Research: Solid Earth, 2022.
+									<li><hr>
+<!--									<li>
+										<strong>
+											Title
+										</strong>, <a href="">ref</a>, journal.
+									<li><hr>-->
+										<strong>
+											Illuminating the Pre-, Co-, and Post-Seismic Phases of the 2016 M7.8 Kaikōura Earthquake With 10 Years of Seismicity
+										</strong>, <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021JB022304">C. J. Chamberlain et al.</a>, Journal of Geophysical Research: Solid Earth, 2021.
+									</li><hr>
+									<li>
+										<strong>
+											Volcanic Unrest at Taupō Volcano in 2019: Causes, Mechanisms and Implications
+										</strong>, <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GC009803">F. Illsley-Kemp et al.</a>, Geochemistry, Geophysics, Geosystems 2021
+									</li><hr>
+									<li>
+										<strong>
+											A Repeating Earthquake Catalog From 2003 to 2020 for the Raukumara Peninsula, Northern Hikurangi Subduction Margin, New Zealand
+										</strong>, <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GC009670">Hughes et al.</a>, Geochemistry, Geophysics, Geosystems, 2021
+									</li><hr>
+									<li>
+										<strong>
+											ObsPlus: A Pandas-centric ObsPy expansion pack
+										</strong>, <a href="https://joss.theoj.org/papers/10.21105/joss.02696.pdf">D. J.A. Chambers et al.</a>, Journal of Open Source Software 2021.
+									</li><hr>
+									<li>
+										<strong>
+											Seismic monitoring of the Auckland Volcanic Field during New Zealand's COVID-19 lockdown
+										</strong>, <a href="https://se.copernicus.org/articles/12/363/2021/">van Wijk et al.</a>, Solid Earth 2021.
+									</li><hr>
+									<li>
+										<strong>
+											RT‐EQcorrscan: Near‐Real‐Time Matched‐Filtering for Rapid Development of Dense Earthquake Catalogs
+										</strong>, <a href="https://pubs.geoscienceworld.org/ssa/srl/article/91/6/3574/590814">C.J. Chamberlain et al.</a>, Seismological Research Letters, 2020
+									</li><hr>
 									<li>
 										<strong>
 											Crustal fault connectivity of the Mw 7.8 2016 Kaikōura earthquake constrained by aftershock relocations
