@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Earthquake Catalogue Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="panel">
+      <h1>Earthquake catalogues</h1>
+
+      <section>
+        <h2>Catalogues</h2>
+        <div id="catalogue-list"></div>
+      </section>
+
+      <section>
+        <h2>Overlays</h2>
+        <label class="cat-row">
+          <input type="checkbox" id="faults-toggle">
+          <span class="swatch-line" id="faults-swatch"></span>
+          <span class="cat-name">NZ Community Fault Model v1.0</span>
+          <span class="cat-status" id="faults-status"></span>
+        </label>
+      </section>
+
+      <section>
+        <h2>Time period (UTC)</h2>
+        <div class="range-label" id="time-label">Select a catalogue</div>
+        <div id="time-slider" class="slider"></div>
+      </section>
+
+      <section>
+        <h2>Magnitude</h2>
+        <div class="range-label" id="mag-label"></div>
+        <div id="mag-slider" class="slider"></div>
+      </section>
+
+      <section>
+        <h2>Depth</h2>
+        <label class="check">
+          <input type="checkbox" id="depth-enable"> Limit depth range
+        </label>
+        <div class="range-label" id="depth-label"></div>
+        <div id="depth-slider" class="slider"></div>
+      </section>
+
+      <section>
+        <h2>Marker size</h2>
+        <input type="range" id="size-scale" min="0.5" max="3" step="0.1" value="1">
+      </section>
+
+      <section id="stats" class="stats"></section>
+    </aside>
+
+    <main id="map"></main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
